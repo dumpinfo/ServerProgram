@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+PROJECT(PrintAddress)
+SET(CMAKE_C_COMPILER gcc)
+SET(CMAKE_CXX_COMPILER g++)
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -fdiagnostics-color=auto -pthread -fexceptions -Wno-unused-local-typedefs -Wreorder -Wall -Wextra -Wpointer-arith -Wcast-qual -Wunreachable-code -Wno-deprecated -Wundef -Wdouble-promotion -Woverloaded-virtual -Wunused-parameter -Wno-deprecated -g -fpic -fPIC")
+ADD_SUBDIRECTORY(src)
